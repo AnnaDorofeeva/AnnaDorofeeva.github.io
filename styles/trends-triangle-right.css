@@ -1,0 +1,35 @@
+.trend-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 18%;
+
+    position: absolute;
+    right: 2%;
+    bottom: 10%;
+}
+
+.trend-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 18%;
+
+    position: absolute;
+    right: 22%;
+    bottom: 22%;
+}
+
+.trend-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    width: 18%;
+
+    position: absolute;
+    right: 42%;
+    bottom: 10%;
+}
