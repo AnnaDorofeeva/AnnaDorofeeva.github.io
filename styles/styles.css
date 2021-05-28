@@ -1,0 +1,146 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #f3f3f3;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.main-page {
+    width: 100%;
+    height: 90vh;
+}
+
+.top-menu {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0.14)), #000000;
+    height: 10vh;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+}
+
+.top-menu a {
+    float: right;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    text-decoration: none;
+    font-size: 3vh;
+    line-height: 10vh;
+}
+
+.top-menu a:hover {
+    background-color: #ffffff;
+    color: #000000;
+    height: 100%;
+}
+
+.landing_name h1{
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14vh;
+    line-height: 25vh;
+    text-align: center;
+}
+
+.portrait-left {
+    position: absolute;
+    width: 25%;
+    left: 0px;
+    bottom: 0px;
+}
+
+.portrait-left img {
+    width: 100%;
+}
+
+.portrait-right {
+    position: absolute;
+    width: 30%;
+    right: 0px;
+    bottom: 0px;
+}
+
+.portrait-right img {
+    width: 100%;
+}
+
+.dialog p {
+    color: #ffffff;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.2vh;
+    line-height: 2.3vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+}
+
+.dialog-1 img {
+    width: 25vw;
+    position: absolute;
+    left: 20%;
+    bottom: 35%;
+}
+
+.dialog-2 img {
+    width: 23vw;
+    position: absolute;
+    right: 30%;
+    bottom: 32%;
+}
+
+.dialog-3 img {
+    width: 20vw;
+    position: absolute;
+    left: 25%;
+    bottom: 20%;
+}
+
+.dialog-4 img {
+    width: 27vw;
+    position: absolute;
+    right: 28%;
+    bottom: 10%;
+}
+
+.dialog-1 p {
+    position: absolute;
+    left: 22.5%;
+    bottom: 43%;
+}
+
+.dialog-2 p {
+    position: absolute;
+    right: 31%;
+    bottom: 36%;
+}
+
+.dialog-3 p {
+    position: absolute;
+    left: 25.5%;
+    bottom: 26%;
+}
+
+.dialog-4 p {
+    position: absolute;
+    right: 31.5%;
+    bottom: 12.5%;
+}
+
+.trends {
+    width: 100%;
+    height: 100vh;
+}
