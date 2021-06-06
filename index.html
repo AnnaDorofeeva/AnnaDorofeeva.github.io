@@ -7,18 +7,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/global-styles.css">
     <link rel="stylesheet" href="/styles/contacts.css">
     <link rel="stylesheet" href="/styles/styles.css">
     <link rel="stylesheet" href="/styles/trends-menu.css">
+    <link rel="stylesheet" href="/styles/use-of-trends.css">
     <title>Trendbook Fall 2021</title>
 </head>
-<body>
-    <div class="top-menu">
+<body id="main">
+    <header id="main" class="top-menu">
         <a href="/index.html#contacts">Контакты</a>
-        <a href="">Как применить тренды</a>
+        <a href="/index.html#use-of-trends">Как применить тренды</a>
         <a href="/index.html#trends">Тренды</a>
-    </div>
-    <div class="main-page">
+        <a href="/index.html#main">Главная</a>
+    </header>
+    <div id="main-page" class="main-page">
         <div class="landing_name">
             <h1>Trendbook Fall 2021</h1>
         </div>
@@ -179,11 +182,58 @@
             </div>
         </div>
     </div>
+
+    <div id="use-of-trends" class="use-of-trends">
+        <div class="name-of-page">
+            <h1>Как применить тренды</h1>
+        </div>
+        <div class="horizontal-slider">
+            <button id="chevron-left" class="chevron">
+                <img class="chevron-left" src="/img/icons/chevron.png" alt="">
+            </button>
+            <div class="slides">
+                <img id="slide4" class="slide" src="/img/photos/photo-4.png" alt="">
+                <img id="slide3" class="slide" src="/img/photos/photo-3.png" alt="">
+                <img id="slide2" class="slide" src="/img/photos/photo-2.png" alt="">
+                <img id="slide1" class="slide" src="/img/photos/photo-1.png" alt="">
+
+                <img id="slide4" class="slide" src="/img/photos/photo-4.png" alt="">
+                <img id="slide3" class="slide" src="/img/photos/photo-3.png" alt="">
+                <img id="slide2" class="slide" src="/img/photos/photo-2.png" alt="">
+                <img id="slide1" class="slide" src="/img/photos/photo-1.png" alt="">
+
+                <img id="slide4" class="slide" src="/img/photos/photo-4.png" alt="">
+                <img id="slide3" class="slide" src="/img/photos/photo-3.png" alt="">
+                <img id="slide2" class="slide" src="/img/photos/photo-2.png" alt="">
+                <img id="slide1" class="slide" src="/img/photos/photo-1.png" alt="">
+            </div>
+            <button id="chevron-right" class="chevron">
+                <img class="chevron-right" src="/img/icons/chevron.png" alt="">
+            </button>
+       </div>
+       <div class="vertical-slider">
+           <img class="reference" src="/img/accent_top/accent_top_1.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_2.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_3.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_1.jpg" alt="">
+
+           <img class="reference" src="/img/accent_top/accent_top_2.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_3.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_1.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_2.jpg" alt="">
+           
+           <img class="reference" src="/img/accent_top/accent_top_3.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_1.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_2.jpg" alt="">
+           <img class="reference" src="/img/accent_top/accent_top_3.jpg" alt="">
+       </div>
+    </div>
+
     <div id="contacts" class="contacts">
         <div class="name-of-page">
             <h1>Контакты</h1>
         </div>
-        <a class="subscribe" href="">
+        <a class="subscribe" href="https://www.instagram.com/an_nushka.ev/" target="_blank">
             <img class="rotate-subsrcibe-image" src="/img/icons/subscribe.png" alt="Подпишись">
             <img class="subscribe-image" src="img/icons/instagram-black.png">
         </a>  
@@ -218,5 +268,6 @@
             </div>
         </div>
     </div>
+    <script src="/scripts/use-of-trends.js"></script>
 </body>
 </html>

@@ -1,19 +1,6 @@
-html, body {
-    margin: 0px;
-    padding: 0px;
-    border: 0px;
-    background-color: #f3f3f3;
-}
-
-html {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 .main-page {
     width: 100%;
-    height: 90vh;
+    height: 100vh;
 }
 
 .top-menu {
@@ -22,6 +9,7 @@ html {
     width: 100%;
     overflow: hidden;
     position: fixed;
+    z-index: 2;
 }
 
 .top-menu a {
@@ -51,6 +39,7 @@ html {
     font-size: 14vh;
     line-height: 25vh;
     text-align: center;
+    margin-top: 12vh;
 }
 
 .portrait-left {
