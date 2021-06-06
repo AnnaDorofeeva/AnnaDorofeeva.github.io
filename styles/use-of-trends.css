@@ -1,0 +1,66 @@
+.use-of-trends {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.horizontal-slider {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 2vh;
+    left: 5vw;
+}
+
+.slides {
+    height: 70vh;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 50vw;
+}
+
+.slide {
+    position: absolute;
+    left: 70%;
+    pointer-events: none;
+}
+
+.chevron-left {
+    transform: rotate(180deg);
+    width: 5vw;
+}
+
+.chevron-right {
+    width: 5vw;
+}
+
+.chevron {
+    background-color: unset;
+    border: unset;
+}
+
+.vertical-slider {
+    margin: 0;
+    position: absolute;
+    bottom: 2vh;
+    right: 5vw;
+    width: 20vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reference {
+    position: absolute;
+    right: 5%;
+    bottom: 25%;
+    pointer-events: none;
+}

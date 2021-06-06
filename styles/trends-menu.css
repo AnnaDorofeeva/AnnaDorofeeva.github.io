@@ -8,13 +8,15 @@
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14vh;
+    font-size: 12vh;
     position: absolute;
     left: 5%;
+    margin-top: 12vh;
 }
 
 .line-of-trends {
     width: 75vw;
+    height: 77%;
     position: absolute;
     left: 8vw;
     bottom: 5%
@@ -69,77 +71,77 @@
 
 .trend-2 {
     left: 25.5%;
-    top: 23.5%;
+    top: 21.5%;
 }
 
 .trend-3 {
     left: 7%;
-    top: 29.5%;
+    top: 27%;
 }
 
 .trend-4 {
     left: 19.5%;
-    top: 35.5%;
+    top: 33%;
 }
 
 .trend-5 {
     left: 48.5%;
-    top: 33%;
+    top: 31.5%;
 }
 
 .trend-6 {
     left: 62%;
-    top: 41.5%;
+    top: 39%;
 }
 
 .trend-7 {
     left: 31.5%;
-    top: 44%;
+    top: 42%;
 }
 
 .trend-8 {
     left: 7%;
-    top: 46.5%;
+    top: 44.5%;
 }
 
 .trend-9 {
     left: 14%;
-    top: 51.7%;
+    top: 49.7%;
 }
 
 .trend-10 {
     left: 49%;
-    top: 51.5%;
+    top: 49.5%;
 }
 
 .trend-11 {
     left: 76%;
-    top: 49.5%;
+    top: 47.5%;
 }
 
 .trend-12 {
     left: 50%;
-    top: 59%;
+    top: 57.5%;
 }
 
 .trend-13 {
     left: 74%;
-    top: 66%;
+    top: 64%;
 }
 
 .trend-14 {
     left: 45%;
-    top: 70.5%;
+    top: 69.5%;
 }
 
 .trend-15 {
     left: 32%;
-    top: 79.5%;
+    top: 78.5%;
 }
 
 .trend-16 {
     left: 56%;
-    top: 79.5%;
+    top: 77.5%;
 }
 
 .trend-17 {
@@ -149,12 +151,12 @@
 
 .trend-18 {
     left: 50%;
-    top: 89%;
+    top: 88%;
 }
 
 .trend-19 {
     left: 80%;
-    top: 87%;
+    top: 85%;
 }
 
 .portrait-trends-right {

@@ -8,8 +8,9 @@
     font-family: 'Playfair Display', sans-serif;
     font-style: normal;
     font-weight: normal;
-    font-size: 14vh;
+    font-size: 10vh;
     text-align: center;
+    margin-top: 12vh;
 }
 
 .name-of-page {
@@ -19,14 +20,16 @@
 }
 
 .subscribe-image {
-    width: 5.5%;
+    width: 5.5vw;
+    height: 5.5vw;
     position: absolute;
     right: 36.2%;
     top: 31%;
 }
 
 .rotate-subsrcibe-image{
-    width: 18%;
+    width: 18vw;
+    height: 18vw;
     position: absolute;
     right: 30%;
     top: 20%;
