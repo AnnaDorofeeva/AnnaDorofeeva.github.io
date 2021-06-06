@@ -1,0 +1,23 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #f3f3f3;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    scroll-behavior: smooth;
+}
+
+name-of-page h1 {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12vh;
+    position: absolute;
+    left: 5%;
+    margin-top: 12vh;
+}
