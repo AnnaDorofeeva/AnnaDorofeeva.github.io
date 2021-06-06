@@ -9,7 +9,7 @@
     width: 100%;
     overflow: hidden;
     position: fixed;
-    z-index: 2;
+    z-index: 5;
 }
 
 .top-menu a {
