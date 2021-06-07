@@ -33,7 +33,12 @@
 }
 
 .trends-points button:hover {
-    box-shadow: 0px 0px 6px 4px #858C92;
+    background: #858C92;
+    border: 2px solid black;;
+}
+
+.trends-points button:hover a {
+    color: black;
 }
 
 .trends-points a, p {
@@ -175,6 +180,7 @@
 
 .dialog-left-trends {
     width: 25vw;
+    height: 30vh;
     position: absolute;
     left: 10vw;
     bottom: 35vh;
@@ -182,6 +188,7 @@
 
 .dialog-right-trends {
     width: 25vw;
+    height: 29vh;
     position: absolute;
     right: 15vw;
     top: 13%;
