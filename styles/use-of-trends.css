@@ -63,4 +63,33 @@
     right: 5%;
     bottom: 25%;
     pointer-events: none;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.ref {
+    height: 50vh;
+}
+
+.reference p {
+    color:black;
+    margin-top: 1vh;
+}
+
+.looks {
+    position: absolute;
+    left: 8%;
+    bottom: 5%;
+    width: 25vw;
+}
+
+.look {
+    width: 25vw;
+}
+
+
+
+

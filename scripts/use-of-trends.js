@@ -18,6 +18,16 @@ function initReferences() {
     return references;
 }
 
+function initLooks() {
+    const looks = [...document.querySelectorAll('.look')];
+    for (const [i, look] of looks.entries()) {
+        look.style.width = 25 + "vw";
+        look.style.transition = '.3s ease-in-out';
+    }
+    updateLooksPositions(looks);
+    return looks;
+}
+
 function updateImagesPositions(images) {
     for (const [i, image] of images.entries()) {
         const translate = -i * 15;
@@ -47,30 +57,48 @@ function updateReferencesPositions(references) {
     }
 }
 
-function onClickNext(images, references) {
-    images.push(images.shift());
-    references.push(references.shift());
-    updateImagesPositions(images);
-    updateReferencesPositions(references);
+function updateLooksPositions(looks) {
+    for (const [i, look] of looks.entries()) {
+        const translate = i * 25;
+        look.style.transform = `translateX(${translate}vw)`;
+
+        if(i > 0) {
+            look.style.display = 'none';
+        } else {
+            look.style.display = 'inline';
+        }
+    }
 }
 
-function onClickPrev(images, references) {
-    images.unshift(images.pop());
-    references.unshift(references.pop());
+function onClickNext(images, references, looks) {
+    images.push(images.shift());
+    references.push(references.shift());
+    looks.push(looks.shift())
     updateImagesPositions(images);
     updateReferencesPositions(references);
+    updateLooksPositions(looks)
+}
+
+function onClickPrev(images, references, looks) {
+    images.unshift(images.pop());
+    references.unshift(references.pop());
+    looks.unshift(looks.pop())
+    updateImagesPositions(images);
+    updateReferencesPositions(references);
+    updateLooksPositions(looks)
 }
 
 function main() {
     const images = initImages();
     const references = initReferences();
+    const looks = initLooks();
     const nextButton = document.getElementById('chevron-right');
     const prevButton = document.getElementById('chevron-left');
     nextButton.addEventListener('click', () => {
-        onClickNext(images, references);
+        onClickNext(images, references, looks);
     })
     prevButton.addEventListener('click', () => {
-        onClickPrev(images, references);
+        onClickPrev(images, references, looks);
     })
 }
 
