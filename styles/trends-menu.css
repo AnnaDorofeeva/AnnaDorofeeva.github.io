@@ -33,7 +33,12 @@
 }
 
 .trends-points button:hover {
-    box-shadow: 0px 0px 6px 4px #858C92;
+    background: #858C92;
+    border: 2px solid black;;
+}
+
+.trends-points button:hover a {
+    color: black;
 }
 
 .trends-points a, p {
