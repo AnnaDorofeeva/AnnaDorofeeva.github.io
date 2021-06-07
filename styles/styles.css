@@ -27,6 +27,7 @@
 }
 
 .top-menu a:hover {
+    transition-duration: .3ms;
     background-color: #ffffff;
     color: #000000;
     height: 100%;
