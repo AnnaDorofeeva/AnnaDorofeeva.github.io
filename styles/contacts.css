@@ -78,6 +78,7 @@
 
 .dialog-contacts-left {
     width: 22%;
+    height: 26vh;
     position: absolute;
     left: 20%;
     bottom: 35%;
@@ -85,6 +86,7 @@
 
 .dialog-contacts-right {
     width: 25%;
+    height: 22vh;
     position: absolute;
     right: 25%;
     bottom: 12%;

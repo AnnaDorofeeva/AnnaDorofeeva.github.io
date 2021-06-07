@@ -79,6 +79,7 @@
 
 .dialog-1 img {
     width: 25vw;
+    height: 22vh;
     position: absolute;
     left: 20%;
     bottom: 35%;
@@ -86,6 +87,7 @@
 
 .dialog-2 img {
     width: 23vw;
+    height: 18vh;
     position: absolute;
     right: 30%;
     bottom: 32%;
@@ -93,6 +95,7 @@
 
 .dialog-3 img {
     width: 20vw;
+    height: 16vh;
     position: absolute;
     left: 25%;
     bottom: 20%;
@@ -100,6 +103,7 @@
 
 .dialog-4 img {
     width: 27vw;
+    height: 22vh;
     position: absolute;
     right: 28%;
     bottom: 10%;
@@ -126,7 +130,7 @@
 .dialog-4 p {
     position: absolute;
     right: 31.5%;
-    bottom: 12.5%;
+    bottom: 14.5%;
 }
 
 .trends {
