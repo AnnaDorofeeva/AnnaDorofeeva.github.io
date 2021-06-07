@@ -1,7 +1,7 @@
 function initImages() {
     const images = [...document.querySelectorAll('.slide')];
     for (const [i, image] of images.entries('reference')) {
-        image.style.width = 13 + 'vw';
+        image.style.width = 15 + 'vw';
         image.style.transition = '.3s ease-in-out';
     }
     updateImagesPositions(images);
@@ -20,7 +20,7 @@ function initReferences() {
 
 function updateImagesPositions(images) {
     for (const [i, image] of images.entries()) {
-        const translate = -i * 13;
+        const translate = -i * 15;
         const scale = Math.max(1 - Math.sqrt(i / 5), 0) * 100;
         image.style.opacity = Math.max(1 - i / 4, 0);
         image.style.transform = `translateX(${translate}vw) scale(${scale}%)`;
