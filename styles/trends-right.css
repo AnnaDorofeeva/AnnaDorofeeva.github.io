@@ -25,6 +25,7 @@
 .trend img {
     width: 100%;
     transition: 1.5s;
+    border: 2px solid black;
 }
 
 .trend img:hover {
@@ -53,21 +54,45 @@
     left: 0px;
     bottom: 0px;
     width: 22%;
+    height: 45vh;
 }
 
-.dialog-window img {
+.dialog-window-small img {
     position: absolute;
-    left: 5%;
-    bottom: 33%;
-    width: 27%;
+    left: 6%;
+    bottom: 34%;
+    width: 25%;
+    height: 31vh;
 }
 
-.dialog-window p {
+.dialog-window-big img {
+    position: absolute;
+    left: 4%;
+    bottom: 33%;
+    width: 28%;
+    height: 37vh;
+}
+
+.dialog-window-small p {
     color: #ffffff;
     font-family: 'Montserrat', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 2.2vh;
+    line-height: 100%;
+    position: absolute;
+    left: 7.5%;
+    bottom: 51%;
+    width: 22%;
+    text-align: center;
+}
+
+.dialog-window-big p {
+    color: #ffffff;
+    font-family: 'Montserrat', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.1vh;
     line-height: 100%;
     position: absolute;
     left: 7.5%;

@@ -11,13 +11,3 @@ html {
     justify-content: space-between;
     scroll-behavior: smooth;
 }
-
-name-of-page h1 {
-    font-family: 'Playfair Display', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12vh;
-    position: absolute;
-    left: 5%;
-    margin-top: 12vh;
-}

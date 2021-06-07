@@ -46,7 +46,7 @@
     position: absolute;
     width: 25%;
     left: 0px;
-    bottom: 0px;
+    bottom: 2vh;
 }
 
 .portrait-left img {
@@ -57,7 +57,7 @@
     position: absolute;
     width: 30%;
     right: 0px;
-    bottom: 0px;
+    bottom: 2vh;
 }
 
 .portrait-right img {
